@@ -1,5 +1,5 @@
 const questions = {
-    Mathematics: [
+    Integration: [
         { question: "A unit of signaling speed equal to the number of signal events per second."
         , options: ["a. bit rate", "b. pulse rate", "c. baud rate", "d. Nyquist rate"]
         , correct: "c"},
@@ -62,6 +62,12 @@ const questions = {
         , correct: ""},
         // Add more Math questions here
     ],
+
+    Mathematics: [
+        { question: "What is Ohm's Law?", options: ["a. V=IR", "b. E=mc^2", "c. F=ma", "d. P=IV"]
+            , correct: "a" },
+    ],
+
     Elecs: [
         { question: "What is Ohm's Law?", options: ["a. V=IR", "b. E=mc^2", "c. F=ma", "d. P=IV"]
             , correct: "a" },
