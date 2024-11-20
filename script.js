@@ -1,7 +1,65 @@
 const questions = {
     Mathematics: [
-        { question: "What is 2+2?", options: ["a. 3", "b. 4", "c. 5", "d. 6"]
-            , correct: "b" },
+        { question: "A unit of signaling speed equal to the number of signal events per second."
+        , options: ["a. bit rate", "b. pulse rate", "c. baud rate", "d. Nyquist rate"]
+        , correct: "c"},
+        { question: "The maximum information transport rate (in bps) can be achieved with zero probability."
+        , options: ["a. Information theory", "b. Channel capacity", "c. Bit error rate (BER)", "d. Probability of error bit"]
+        , correct: "b"},
+         { question: "An 8-bit level code is transmitted over a 2400 Hz bandwidth, calculate the required channel capacity."
+        , options: ["a. 19,200 bps", "b. 36,700 bps", "c. 38,400 bps", "d. 43,350 bps"]
+        , correct: "c"},
+        { question: "Calcultae the channel capacity needed for voice grade channel having a signal power of 90 W and a noise power of 5 W."
+        , options: ["a. 9,453 bps", "b. 13,169 bps", "c. 22,390 bps", "d. 40,467 bps"]
+        , correct: "b"},
+         { question: "Calculate the amount of information needed to open a lock whose combination consist of three integers, each ranging from 00 to 99."
+        , options: ["a. 6.64 bits", "b. 19.9 bits", "c. 37.3 bits", "d. 51 bits"]
+        , correct: "b"},
+        { question: "The average amount of information in symbol refers to"
+        , options: ["a. Information density", "b. Information theory", "c. Entropy", "d. Entropy rate"]
+        , correct: "c"},
+         { question: "It is essensitially an analog-to-digital conversion of a special type where the information contained in the instantaneous samples of an analog signal is represented by digital words in a serial bit stream."
+        , options: ["a. PWM", "b. PPM", "c. PAM", "d. PCM"]
+        , correct: "d"},
+        { question: "The most commonly used type of circuit to produced a pulse amplitude modulated signal is"
+        , options: ["a. A/D converter", "b. flash encoder", "c. sample and hold circuit", "d. anti-alias filter"]
+        , correct: "c"},
+        { question: "Three popular techniques in PCM are used to implement the anlalog-to-digital converter (ADC) encoding operation except:"
+        , options: ["a. counting", "b. successive approximation", "c. formatting", "d. flash encoders"]
+        , correct: "c"},
+        { question: "For a PCM system with a maximum audio input frequency of 4 kHz, determine the minimum sample rate."
+        , options: ["a. 4 kHz", "b. 8 kHz", "c. 16 kHz", "d. 32 kHz"]
+        , correct: "b"},
+         { question: "Assume uniform quantizing in PCM system, what is the S/N if there are 128 levels of quantization?"
+        , options: ["a. 27.5 dB", "b. 43.9 dB", "c. 50.9 dB", "d. 73.7 dB"]
+        , correct: "b"},
+        { question: "What is the dynamic range in dB of an 8-bit linear sign magnitude PCM spectrum whose maximum decoded voltage in the receiver is 1.27 Vp"
+        , options: ["a. 18 dB", "b. 42 dB", "c. 48 dB", "d. 55dB"]
+        , correct: "b"},
+         { question: "For a PCM system with the follwoing parameters: Maximum analog input frequency = 4 kHz, Maximum decoded voltage at the receiver = ± 2.55 V, Minimum DR = 46 dB. Determine the actual DR."
+        , options: ["a. 17 dB", "b. 42 dB", "c. 48 dB", "d. 54 dB"]
+        , correct: "c"},
+        { question: "Is the numberical indication ho how efficiently a PCM code is utilized"
+        , options: ["a. Throughput", "b. Transmission rate of information bits", "c. coding efficiency", "d. gain"]
+        , correct: "c"},
+         { question: "The number of bits required to represent a character"
+        , options: ["a. byte", "b. block", "c. control character", "d. code length"]
+        , correct: "d"},
+        { question: "Is an entropy encoding algorithm used for lessless data compression"
+        , options: ["a. Shannon-Hartley Coding", "b. Huffman coding", "c. Hartley's Law", "d. Companding"]
+        , correct: "b"},
+        { question: "A type of analog companding technique used in U.S. and Japan."
+        , options: ["a. A-Law", "b. µ-Law", "c. B-Law", "d. α-Law"]
+        , correct: "b"},
+        { question: "_____ uses a single bit PC code to achieve digital transmissionof analog signals."
+        , options: ["a. Delta Modulation PCM", "b. Adaptive Delta PCM", "c. Differential PCM", "d. none of them"]
+        , correct: "a"},
+         { question: "The simplest and most common form of ASK operates as a switch, using the presence of a carrier wave to indicate a binary one and its absence ot indicate a binary zero, which refers to"
+        , options: ["a. OFDM", "b. DPCM", "c. OOK", "d. QAM"]
+        , correct: ""},
+        { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
         // Add more Math questions here
     ],
     Elecs: [
