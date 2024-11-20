@@ -281,55 +281,156 @@ const questions = {
         { question: "The main problem in using a quadrature AM would be:"
         , options: ["a. requires too much bandwidth", "b. requires too much power", "c. incompatibility with ordinary AM radios", "d. all of the above"]
         , correct: "c"},
+        { question: "Which symbol in radio signal emission designation is referred to type of modulation of the main carrier?"
+        , options: ["a. second", "b. fourth", "c. third", "d. first"]
+        , correct: "d"},
+        { question: "As compared to plain AM, SSB AM:"
+        , options: ["a. is more efficient", "b. requires a more complex demodulator circuit", "c. requires less bandwidth", "d. all of the above"]
+        , correct: "d"},
+         { question: "As the positive potential is increased on the cathod of a varactor, (a) what happens to reverse bias and (b) how is dialectric width affected?"
+        , options: ["a. (a) increases (b) increases", "b. (a) increases (b) decreases", "c. (a) decreases (b) decreases", "d. (a)decreases (b)increases"]
+        , correct: "a"},
+        { question: "A widely used balanced modulator is called the:"
+        , options: ["a. diode bridge circuit", "b. full wave bridge rectifier", "c. lattice modulator", "d. balance bridge modulator"]
+        , correct: "c"},
+         { question: "Which of the following is not true about AM?"
+        , options: ["a. the carrier amplitude varies", "b. the carrier frequency remains constant", "c. the carrier frequency changes", "d. the information signal amplitude changes the carrier amplitude"]
+        , correct: "c"},
+        { question: "If an SSB transmitter radiates 1000 watts at peak modulation, what will it radiate with no modulation?"
+        , options: ["a. 1000 Watts", "b. 500 Watts", "c. 250 Watts", "d. 0 Watt"]
+        , correct: "d"},
+         { question: "In a phase modulator, the frequency during the constant-amplitude portion of the modulating wave is the:"
+        , options: ["a. peak frequency", "b. rest frequency", "c. deviation frequency", "d. modulating frequency"]
+        , correct: "b"},
+        { question: "In a diode ring modulator, the diode acts like:"
+        , options: ["a. variable resistor", "b. switches", "c. rectifiers", "d. variable capacitors"]
+        , correct: "b"},
+        { question: "First symbol in the designation of radio signals emission which refers to use of an unmodulated carrier"
+        , options: ["a. J", "b. N", "c. H", "d. A"]
+        , correct: "b"},
+        { question: "Music on AM radio stations is low-fidelity because:"
+        , options: ["a. AM is susceptible to noise", "b. commercial AM stations use low power", "c. commercial AM stations have a narrow bandwidth", "d. all of the above"]
+        , correct: "c"},
+         { question: "In phase modulation, (a) the amplitude of the modulating signal determines what characteristic of the phase shift, and (b) the frequency of the modulating signal determines what characteristic of the phase shift?"
+        , options: ["a. (a) rate (b) rate", "b. (a) rate (b) amount", "c. (a) amount (b) amount", "d. (a)amount (b)rate"]
+        , correct: "d"},
+        { question: "In AM, what is modulation index?"
+        , options: ["a. the term used to describe the amount of frequency change in an AM waveform", "b. also known as depth of modulation", "c. it is computed as the ration of carrier voltage and modulating voltage", "d. all of these"]
+        , correct: "b"},
+         { question: "The type of information that can be sent using AM is:"
+        , options: ["a. audio", "b. video", "c. digital data", "d. all of the above"]
+        , correct: "d"},
+        { question: "The primary advantage of phase modulation over frequency modulation is that phase modulation has better carrier:"
+        , options: ["a. power stability", "b. amplitude stability", "c. frequency stability", "d. directional stability"]
+        , correct: "c"},
+         { question: "The most common used filter in SSB generators uses:"
+        , options: ["a. LC networks", "b. mechanical resonators", "c. crystal", "d. RC networks and op amps"]
+        , correct: "c"},
+        { question: "A third symbol emission which represent data transmission including telemetry and telecommand."
+        , options: ["a. B", "b. D", "c. C", "d. N"]
+        , correct: "b"},
+        { question: "To demodulate a USB SSB signal, the receiver must:"
+        , options: ["a. be set to USB mode", "b. reinsert the carrier", "c. both A and B", "d. none of the above"]
+        , correct: "c"},
+        { question: "When a carrier is modulated by square wave, what maximum number of sideband pairs will be generated?"
+        , options: ["a. 1", "b. 9", "c. 3", "d. an infinite number"]
+        , correct: "d"},
+         { question: "The equivalent circuit of a quartz crystal is a :"
+        , options: ["a. series resonant circuit", "b. parallel resonant circuit", "c. neither A nor B", "d. both A and B"]
+        , correct: "d"},
+        { question: "Indicate which one of the following is not an advantage of FM over AM:"
+        , options: ["a. better noise immunity is provided", "b. lower bandwidth is required", "c. transmitter power is more useful", "d. less modulating power is required"]
+        , correct: "b"},
+         { question: "The FM modulation index:"
+        , options: ["a. increase with both deviation and modulation frequency", "b. increases with deviation and decreases with modulation frequency", "c. decreases with deviation and increases with modulation frequency", "d. is equal to twice the deviation"]
+        , correct: "b"},
+        { question: "When the FM reception deteriorates abruptly due to noise, it is called"
+        , options: ["a. the capture effect", "b. the threshold effect", "c. the noise effect", "d. the limit effect"]
+        , correct: "b"},
+         { question: "When compared to a conventional AM signal, an SSB signal provides which of the following advantages?"
+        , options: ["a. improved frequency stability", "b. increased receiver gain", "c. reduced distortion", "d. reduced bandwidth"]
+        , correct: "d"},
+        { question: "If the amplitude of the modulating signal decreases, the carrier deviation:"
+        , options: ["a. increases", "b. decreases", "c. remains constant", "d. goes to zero"]
+        , correct: "b"},
+        { question: "Widest bandwidth in a double-tuned circuit is obtained with:"
+        , options: ["a. undercoupling", "b. critical coupling", "c. optimum coupling", "d. overcoupling"]
+        , correct: "d"},
+        { question: "Automatic gain control permits a wide range of signal amplitudes to be accommodated by controlling the gain of the:"
+        , options: ["a. RF amplifier", "b. IF amplifier", "c. mixer", "d. AF amplifier"]
+        , correct: "b"},
+         { question: "An AFC circuit is used to correct for:"
+        , options: ["a. audio distortion", "b. strong input signals", "c. instability in the IF amplifier", "d. frequency drift in the LO"]
+        , correct: "d"},
+        { question: "The function of AFC is:"
+        , options: ["a. maintain a constant IF frequency", "b. match the local oscillator to the received signal", "c. lock the discriminator to the IF frequency", "d. none of the above"]
+        , correct: "b"},
+         { question: "The main function of AGC is to"
+        , options: ["a. keep the gain of the receiver constant", "b. keep the gain of the IF amplifiers constant", "c. keep the input to the detector at a constant amplitude", "d. all of the above"]
+        , correct: "c"},
+        { question: "A BFO is used in the demodulation of which types of signals?"
+        , options: ["a. AM", "b. FM", "c. SSB or CW", "d. QPSK"]
+        , correct: "c"},
+         { question: "An FM receiver switching suddenly between two stations on nearby frequencies is called:"
+        , options: ["a. the capture effect", "b. the threshold effect", "c. the two-station effect", "d. none of the above"]
+        , correct: "a"},
+        { question: "In the phasing method of SSB generation, one sideband is canceled out due to:"
+        , options: ["a. phase shift", "b. sharp selectivity", "c. carrier suppression", "d. phase inversion"]
+        , correct: "a"},
+        { question: "Audio signals are not propagated directly to space because:"
+        , options: ["a. to do so will entail additional costs", "b. the signal will be highly attenuated", "c. they will require antennas that are too long", "d. the signal that will be propagated will be too weak"]
+        , correct: "c"},
+        { question: "A resonant circuit is:"
+        , options: ["a. a simple form of bandpass filters", "b. used in narrowband RF amplifiers", "c. both A and B", "d. none of the above"]
+        , correct: "c"},
+         { question: "What is the purpose of a buffer amplifier?"
+        , options: ["a. to provide a direct connection between the oscillator and the load", "b. to amplify the output signal of the oscillator", "c. to remove frequency distortion from the oscillator", "d. to prevent load variations from affecting the oscillator"]
+        , correct: "d"},
+        { question: "A balance modulator used to demodulate a SSB signal is called a(n):"
+        , options: ["a. transponder", "b. product detector", "c. converter", "d. modulator"]
+        , correct: "b"},
+         { question: "Loading down a tuned-circuit amplifier will:"
+        , options: ["a. raise the Q of the tuned circuit", "b. lower the Q of the tuned circuit", "c. multiply the Q", "d. have no effect on Q"]
+        , correct: "b"},
+        { question: "In a buffer amplifier, what is the impedance in the (a) input and (b) output?"
+        , options: ["a. (a) low (b) low", "b. (a) low (b) high", "c. (a) high (b) high", "d. (a) high (b) low1"]
+        , correct: "d"},
+         { question: "Frequency translation is done with a circuit called a:"
+        , options: ["a. summer", "b. multiplier", "c. filter", "d. mixer"]
+        , correct: "d"},
+        { question: "In RF amplifiers, impedance matching is usually done with:"
+        , options: ["a. RC coupling", "b. transformer coupling", "c. direct coupling", "d. lumped reactance"]
+        , correct: "b"},
+        { question: "The ability of a circuit to faithfully reproduce the input signal in the output is known by what term?"
+        , options: ["a. fidelity", "b. fluctuation", "c. directivity", "d. discrimination"]
+        , correct: "a"},
+        { question: "The inputs to mixer are fo and fm. In down conversion, which of the following mixer output signal is slected?"
+        , options: ["a. fo", "b. fm", "c. fo-fm", "d. fo+fm"]
+        , correct: "c"},
+        { question: "To provide to or more voice cirucits with the same carrier, what system must be used?"
+        , options: ["a. vestigial sideband system", "b. pilot carrier system", "c. ISM emission", "d. limcomplex"]
+        , correct: "c"},
+        { question: "One of the following cannot be used to remove unwanted sideband in SSB. This is the:"
+        , options: ["a. filter system", "b. third method", "c. phase shift method", "d. balance modulator"]
+        , correct: "d"},
+         { question: "In an AM transmitter with 100% modulation, the voltage of the final RF stage will be:"
+        , options: ["a. approximately half the DC supply voltage", "b. approximatetly twice the DC supply voltage", "c. approximately four times the DC supply voltage", "d. none of the above"]
+        , correct: "c"},
+        { question: "Over a narrow range of frequencies, the PLL acts like a:"
+        , options: ["a. low-pass filter", "b. bandpass filter", "c. tunable oscillator", "d. frequency modulator"]
+        , correct: "b"},
+         { question: "With a sine-wave input, how will the output compare to the input in (a) a linear circuit and (b) a nonlinear circuit?"
+        , options: ["a. (a) proportional (b) proportional", "b. (a)proportional (b) not proportional", "c. (a) not proportional (b) not proportional", "d. (a) not proportional (b) proportional"]
+        , correct: "b"},
+        { question: "For a frequency multiplier to work, it requires:"
+        , options: ["a. a nonlinear circuit", "b. a linear amplifier", "c. a signal containing harmonics", "d. an input signal that is an integer multiple of the desired frequency"]
+        , correct: "a"},
+        { question: "Overall sensitivity of a receiver is limited by which of the following factors?"
+        , options: ["a. noise", "b. bandwidth", "c. output power", "d. frequency response"]
+        , correct: "a"},
         { question: ""
         , options: ["a. ", "b. ", "c. ", "d. "]
         , correct: ""},
-        { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-         { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-        { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-         { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-        { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-         { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-        { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-        { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-        { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-         { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-        { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-         { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-        { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-         { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-        { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-
         // Add more EST questions here
     ]
 };
