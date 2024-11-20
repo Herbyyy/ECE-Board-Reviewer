@@ -9,7 +9,7 @@ const questions = {
          { question: "An 8-bit level code is transmitted over a 2400 Hz bandwidth, calculate the required channel capacity."
         , options: ["a. 19,200 bps", "b. 36,700 bps", "c. 38,400 bps", "d. 43,350 bps"]
         , correct: "c"},
-        { question: "Calcultae the channel capacity needed for voice grade channel having a signal power of 90 W and a noise power of 5 W."
+        { question: "Calculate the channel capacity needed for voice grade channel having a signal power of 90 W and a noise power of 5 W."
         , options: ["a. 9,453 bps", "b. 13,169 bps", "c. 22,390 bps", "d. 40,467 bps"]
         , correct: "b"},
          { question: "Calculate the amount of information needed to open a lock whose combination consist of three integers, each ranging from 00 to 99."
@@ -39,22 +39,22 @@ const questions = {
          { question: "For a PCM system with the follwoing parameters: Maximum analog input frequency = 4 kHz, Maximum decoded voltage at the receiver = ± 2.55 V, Minimum DR = 46 dB. Determine the actual DR."
         , options: ["a. 17 dB", "b. 42 dB", "c. 48 dB", "d. 54 dB"]
         , correct: "c"},
-        { question: "Is the numberical indication ho how efficiently a PCM code is utilized"
+        { question: "Is the numerical indication ho how efficiently a PCM code is utilized"
         , options: ["a. Throughput", "b. Transmission rate of information bits", "c. coding efficiency", "d. gain"]
         , correct: "c"},
          { question: "The number of bits required to represent a character"
         , options: ["a. byte", "b. block", "c. control character", "d. code length"]
         , correct: "d"},
-        { question: "Is an entropy encoding algorithm used for lessless data compression"
+        { question: "Is an entropy encoding algorithm used for lossless data compression"
         , options: ["a. Shannon-Hartley Coding", "b. Huffman coding", "c. Hartley's Law", "d. Companding"]
         , correct: "b"},
         { question: "A type of analog companding technique used in U.S. and Japan."
         , options: ["a. A-Law", "b. µ-Law", "c. B-Law", "d. α-Law"]
         , correct: "b"},
-        { question: "_____ uses a single bit PC code to achieve digital transmissionof analog signals."
+        { question: "_____ uses a single bit PCM code to achieve digital transmissionof analog signals."
         , options: ["a. Delta Modulation PCM", "b. Adaptive Delta PCM", "c. Differential PCM", "d. none of them"]
         , correct: "a"},
-         { question: "The simplest and most common form of ASK operates as a switch, using the presence of a carrier wave to indicate a binary one and its absence ot indicate a binary zero, which refers to"
+        { question: "The simplest and most common form of ASK operates as a switch, using the presence of a carrier wave to indicate a binary one and its absence ot indicate a binary zero, which refers to"
         , options: ["a. OFDM", "b. DPCM", "c. OOK", "d. QAM"]
         , correct: "c"},
         { question: ""
