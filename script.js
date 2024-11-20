@@ -169,9 +169,102 @@ const questions = {
         { question: "What is the effect of the signal to noise ratio of the system (in dB) if the bandwidth is tripled, considering all other parameters to remain unchanged except the normal thermal noise only. The S/N will be:", options: ["a. increase by 4.77 dB", "b. decrease by 4.77 dB", "c. increased by 0.33 dB", "d. decreased by 0.33 dB"], correct: "b"},
         { question: "The signal power of an input to an amplifier is 100 uW and the noise power is 1 uW. At the output, the signal power is 1 W and the noise power is 40 mW. What is the amplifier noise figure?", options: ["a. 4 dB", "b. 18 dB", "c. 6 dB", "d. 25 dB"], correct: "c"},
         { question: "The resistor R1 and R2 are connected in series at 300 degrees K and 400 degrees K temperature respectively. If R1 is 200 ohms and R2 is 300 ohms, finthe power at the load (Rl = 500 ohms) over the bandwidth of 100 kHz.", options: ["a. 1.98 fW", "b. 0.996 fW", "c. 0.98 fW", "d. 0.496 fW"], correct: "d"},
+        { question: "The envelop of an AM signal is due to:"
+        , options: ["a. the basedband signal", "b. the carrier signal", "c. the amplitude signal", "d. none of the above"]
+        , correct: "a"},
+        { question: "Spectrum analysis is used to view which of the following characteristics"
+        , options: ["a. phase", "b. bandwidth", "c. modulating wave", "d. modulation envelope"]
+        , correct: "b"},
+         { question: "Amplitude modulation that vary the carrier amplitude with the modulating signal by passing it through an attenuator work on the principle of:"
+        , options: ["a. rectification", "b. resonance", "c. variable resistance", "d. absorption"]
+        , correct: "c"},
+        { question: "Overmodulation causes:"
+        , options: ["a. distortion", "b. splatter", "c. both A and B", "d. none of the above"]
+        , correct: "c"},
+         { question: "In an AM wave, where is the audio intelligence located?"
+        , options: ["a. in the carrier frequency", "b. in the spacing between the sideband frequencies", "c. in the spacing between the carrier and sideband frequencies", "d. in the sideband frequencies"]
+        , correct: "c"},
+        { question: "The component used to produce AM at very high frequencies is a:"
+        , options: ["a. varactor", "b. thermistor", "c. cavity resonator", "d. PIN diode"]
+        , correct: "d"},
+         { question: "A sigle-sideband signal contains 2 kW. How much power is contained in the carrier?"
+        , options: ["a. 0 W", "b. 500W", "c. 1kW", "d. 2kW"]
+        , correct: "a"},
+        { question: "At 100% modulation, the total sideband power is:"
+        , options: ["a. equal to the carrier power", "b. twice the carrier power", "c. half the carrier power", "d. 1.414 x carrier power"]
+        , correct: "c"},
+        { question: "In an FM signal, (a) the rate of shift is proporional to what characteristic of the modulating signal, and (b) the amount of shift is proportional to what characteristic?"
+        , options: ["a. (a) amplitude (b) amplitude", "b. (a) amplitude (b) frequency", "c. (a) frequency (b) frequency", "d. (a) frequency (b) amplitude"]
+        , correct: "c"},
+        { question: "If an AM radio station increases its modulation index, you would expect:"
+        , options: ["a. the audtio to get louder at the receiver", "b. the received RF signal to increase", "c. the signal-to-noise ration to increase", "d. all of the above"]
+        , correct: "d"},
+         { question: "Frequencies that are located between adjacent channels to prevent interference are referred to as:"
+        , options: ["a. sidebands", "b. bandwidths", "c. guardb bands", "d. blank channels"]
+        , correct: "c"},
+        { question: "The modulation index can be derived from:"
+        , options: ["a. the time-domain signal", "b. the frequency-domain signal", "c. both A and B", "d. none of the above"]
+        , correct: "c"},
+         { question: "What type of circuit is used to remove the AM component in the output of a semiconductor reactance modulator?"
+        , options: ["a. a mixer", "b. a filter", "c. a limiter", "d. a buffer amplifier"]
+        , correct: "c"},
+        { question: "The most commonly used amplitude demodulator is the:"
+        , options: ["a. diode mixer", "b. balance modulator", "c. envelope detector", "d. crystal filter"]
+        , correct: "c"},
+         { question: "In AM, at 100% modulation:"
+        , options: ["a. overmodulation will occur", "b. the peak voltages of the modulating signal and the carrier are equal", "c. it is the typical value of modulation index", "d. all of these"]
+        , correct: "b"},
+        { question: "The main problem in using a quadrature AM would be:"
+        , options: ["a. requires too much bandwidth", "b. requires too much power", "c. incompatibility with ordinary AM radios", "d. all of the above"]
+        , correct: "c"},
         { question: ""
-            , options: ["a. ", "b. ", "c. ", "d. "]
-            , correct: ""},
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+        { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+         { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+        { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+         { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+        { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+         { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+        { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+        { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+        { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+         { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+        { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+         { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+        { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+         { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+        { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
 
         // Add more EST questions here
     ]
