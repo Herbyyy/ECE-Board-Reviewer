@@ -56,7 +56,7 @@ const questions = {
         , correct: "a"},
          { question: "The simplest and most common form of ASK operates as a switch, using the presence of a carrier wave to indicate a binary one and its absence ot indicate a binary zero, which refers to"
         , options: ["a. OFDM", "b. DPCM", "c. OOK", "d. QAM"]
-        , correct: ""},
+        , correct: "c"},
         { question: ""
         , options: ["a. ", "b. ", "c. ", "d. "]
         , correct: ""},
