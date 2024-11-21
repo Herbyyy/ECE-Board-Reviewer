@@ -69,8 +69,83 @@ const questions = {
     ],
 
     Elecs: [
-        { question: "What is Ohm's Law?", options: ["a. V=IR", "b. E=mc^2", "c. F=ma", "d. P=IV"]
-            , correct: "a" },
+        { question: "Permeability is the inverse equivalent of which electrical term?"
+        , options: ["a. Voltage", "b. Current", "c. Resistance", "d. Conductance"]
+        , correct: "c"},
+        { question: "Inserting a soft iron core into a coil has what effect on the inductance of the coil?"
+        , options: ["a. Increase inductance", "b. Decrease inductance", "c. Does not affect the inductance", "d. None of these"]
+        , correct: "a"},
+        { question: "Why is AC current transfer more effective than DC current transfer over long distances?"
+        , options: ["a. Due to the height of power lines", "b. Due to the use of AC generators", "c. Due to step-up and step-down transformers reducing 12R losses", "d. Due to very high voltages"]
+        , correct: "c"},
+        { question: "A short circuit has:"
+        , options: ["a. Too much resistance", "b. No conductance", "c. No resistance", "d. Low current"]
+        , correct: "c"},
+        { question: "When considering conventional current versus electron current flow:"
+        , options: ["a. Electron current flow came first", "b. Protons move in conventional current flow", "c. Conventional current flow came first", "d. The direction of current is the same in both methods"]
+        , correct: "c"},
+        { question: "In both induction and synchronous AC motrs"
+        , options: ["a. The operating speed is very steady", "b. The stator magnetic field is stationary", "c. The stator magnetic field rotates", "d. The squirrel cage forms the rotor"]
+        , correct: "c"},
+        { question: "A magnet that is heated will"
+        , options: ["a. Increase in magnetism", "b. Decrease in magnetism", "c. Not change its magnetism", "d. Become demagnetized"]
+        , correct: "b"},
+        { question: "Ferrites are made of what material?"
+        , options: ["a. Ceramic", "b. Porcelain", "c. Silica", "d. Alloy"]
+        , correct: "a"},
+        { question: "The left-hand rule for solenoids states that"
+        , options: ["a. If the fingers of the left hand encircle the coil in the same direction as electron flow the thumb points in the direction of the north pole", "b. If the thumb of the left hand points in the direction of current flow the fingers point forward the north pole", "c. If the fingers of the left hand encircle the coil in the same direction as electron flow the thumb points in the direction of the south pole", "d. If the thumb of the right hand points in the direction of electric flow, the fingers will point in the direction of the north pole "]
+        , correct: "a"},
+        { question: "Discharge of electrons from a body as the result of being bombarded by electrons emitted from a primary source"
+        , options: ["a. Thermionic emission", "b. Primary emission", "c. Photoelectric emission", "d. Secondary emission"]
+        , correct: "d"},
+        { question: "Which electromagnetic device uses brushed and a commutator?"
+        , options: ["a. A speaker", "b. A DC generator", "c. A relay", "d. A solenoid"]
+        , correct: "b"},
+        { question: "It is the air space between poles of magnet"
+        , options: ["a. Air gap", "b. Vacuum", "c. Free zone", "d. Free space"]
+        , correct: "a"},
+        { question: "Power companies supply AC, not DC, because:"
+        , options: ["a. It is easier to transmit AC", "b. There is no longer a need for DC", "c. DC is more dangerous", "d. There are not enough batteries"]
+        , correct: "a"},
+        { question: "A string of resistors in a series circuits will:"
+        , options: ["a. Divide the source voltage in proportion to their values", "b. Reduce the power to zero", "c. Cause the current to divide", "d. Increase the source voltage in proportion to the values"]
+        , correct: "a"},
+        { question: "The term used to designate electrical pressure is:"
+        , options: ["a. Voltage", "b. Current", "c. Resistance", "d. Conductance"]
+        , correct: "a"},
+        { question: "What is the name of the effect of some of the magnetic fields leaking off due to less than 100% coupling? "
+        , options: ["a. Eddy currents", "b. Electromagnetic Effect", "c. Leakage reactance", "d. Self-inductance"]
+        , correct: "c"},
+        { question: "Where do magnetic lines go when they collapse back into a wire?"
+        , options: ["a. Into the field which surrounds each atom", "b. Into free space", "c. Into core itself", "d. Into the coil itself"]
+        , correct: "a"},
+        { question: "Point out the WRONG statement Magnetic leakage is undesirable in electric machines because it"
+        , options: ["a. Leads to their increased weight", "b. Increases to their cost of manufacture", "c. Produces fringing", "d. Lowers their power efficiency"]
+        , correct: "d"},
+        { question: "Unit of flux density in English System"
+        , options: ["a. Tesla", "b. Gauss", "c. Lines per sq. inch", "d. Oersted"]
+        , correct: "c"},
+        { question: "What are the effects of moving a closed wire loop through a magnetic field? "
+        , options: ["a. A voltage is induced in the wire", "b. A current is induced in the wire", "c. The polarity across the wire depends", "d. All of the above"]
+        , correct: "d"},
+        { question: "Permeability is the _____"
+        , options: ["a. Power found in the electromagnet", "b. Power found in magnetic field", "c. Ease with which metals maybe magnetized or demagnetized", "d. Power found in the transformer"]
+        , correct: "c"},
+        { question: "Half-splitting is"
+        , options: ["a. A means for nuclear fuel cells to produce electricity", "b. A means of isolating a problem in a circuit", "c. A means for reducing a high AC voltage to a low DC voltage", "d. A means of limiting current in a circuit"]
+        , correct: "b"},
+        { question: "Given a series circuit containing resistors of different values, which statement is not true?"
+        , options: ["a. The current through each resistro is the same", "b. The sum of the voltage drops across each resistive element will be equal", "c. The total resistance is the sum of the value resistors", "d. The voltage drop across each resistor is the same"]
+        , correct: "d"},
+        { question: "Current is considered as the movement of:"
+        , options: ["a. Electrons", "b. Protons", "c. Charge", "d. Nuclei"]
+        , correct: "a"},
+        { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+        
+
         // Add more Elecs questions here
     ],
     GEAS: [
