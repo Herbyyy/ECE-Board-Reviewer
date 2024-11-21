@@ -24,7 +24,7 @@ const questions = {
         { question: "The most commonly used type of circuit to produced a pulse amplitude modulated signal is"
         , options: ["a. A/D converter", "b. flash encoder", "c. sample and hold circuit", "d. anti-alias filter"]
         , correct: "c"},
-        { question: "Three popular techniques in PCM are used to implement the anlalog-to-digital converter (ADC) encoding operation except:"
+        { question: "Three popular techniques in PCM are used to implement the analog-to-digital converter (ADC) encoding operation except:"
         , options: ["a. counting", "b. successive approximation", "c. formatting", "d. flash encoders"]
         , correct: "c"},
         { question: "For a PCM system with a maximum audio input frequency of 4 kHz, determine the minimum sample rate."
@@ -36,7 +36,7 @@ const questions = {
         { question: "What is the dynamic range in dB of an 8-bit linear sign magnitude PCM spectrum whose maximum decoded voltage in the receiver is 1.27 Vp"
         , options: ["a. 18 dB", "b. 42 dB", "c. 48 dB", "d. 55dB"]
         , correct: "b"},
-         { question: "For a PCM system with the follwoing parameters: Maximum analog input frequency = 4 kHz, Maximum decoded voltage at the receiver = ± 2.55 V, Minimum DR = 46 dB. Determine the actual DR."
+         { question: "For a PCM system with the following parameters: Maximum analog input frequency = 4 kHz, Maximum decoded voltage at the receiver = ± 2.55 V, Minimum DR = 46 dB. Determine the actual DR."
         , options: ["a. 17 dB", "b. 42 dB", "c. 48 dB", "d. 54 dB"]
         , correct: "c"},
         { question: "Is the numerical indication ho how efficiently a PCM code is utilized"
@@ -51,7 +51,7 @@ const questions = {
         { question: "A type of analog companding technique used in U.S. and Japan."
         , options: ["a. A-Law", "b. µ-Law", "c. B-Law", "d. α-Law"]
         , correct: "b"},
-        { question: "_____ uses a single bit PCM code to achieve digital transmissionof analog signals."
+        { question: "_____ uses a single bit PCM code to achieve digital transmission of analog signals."
         , options: ["a. Delta Modulation PCM", "b. Adaptive Delta PCM", "c. Differential PCM", "d. none of them"]
         , correct: "a"},
         { question: "The simplest and most common form of ASK operates as a switch, using the presence of a carrier wave to indicate a binary one and its absence ot indicate a binary zero, which refers to"
