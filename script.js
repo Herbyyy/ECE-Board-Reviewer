@@ -144,13 +144,369 @@ const questions = {
         { question: ""
         , options: ["a. ", "b. ", "c. ", "d. "]
         , correct: ""},
-        
 
         // Add more Elecs questions here
     ],
     GEAS: [
-        { question: "What does CPU stand for?", options: ["a. Central Process Unit", "b. Central Processing Unit", "c. Computer Personal Unit", "d. Central Processor Unit"]
-            , correct: "b" },
+        { question: "When one uses a magnifying to read fine print, one uses a "
+        , options: [
+            "a. Converging lens to produce a virtual image of a the print", 
+            "b. Converging lens to produce a real image of the print", 
+            "c. Mirror to produce a virtual image of the print", 
+            "d. Diverging lens to produce a real of image of the print "]
+        , correct: "a"},
+        { question: "Railway tracks are banked on curves"
+        , options: [
+            "a. Necessary centrifugal force may obtained from the horizontal component weight of the train", 
+            "b. To avoid frictional force between the tracks and wheels", 
+            "c. Necessary centripetal force may be obtained from the horizontal component of the weight of the train", 
+            "d. The train may not fly off in the opposite direction"]
+        , correct: "c"},
+        { question: "In optics, this effect refers to the blurring of the image produced on a concave mirror due to the convergence of rays far from the mirror to other points on the principal axis. What do you call this effect?"
+        , options: [
+            "a. Spherical abberation", 
+            "b. Focal divergence", 
+            "c. Parallax error", 
+            "d. Snell's effect"]
+        , correct: "a"},
+        { question: "For negative point charge, the electric field vectors:"
+        , options: [
+            "a. Circle the charge", 
+            "b. Point radially in toward the charge", 
+            "c. Point radially away from the charge", 
+            "d. Cross at infinity"]
+        , correct: "b"},
+        { question: "Radiocarbon is produced in atmosphere as a result of"
+        , options: [
+            "a. Collision between fast and neutrons and nitrogen nuclei present in the atmosphere", 
+            "b. Action of ultraviolet light from the sun on atmospheric oxyge", 
+            "c. Action of solar radiations particularly cosmic rays on carbon dioxide present in the atmosphere", 
+            "d. Lightning discharge"]
+        , correct: "a"},
+        { question: " What is the property of matter which is the reluctance to change its state of rest or of uniform motion?"
+        , options: [
+            "a. Impulse", 
+            "b. Momentum", 
+            "c. Inertia", 
+            "d. Equilibrium"]
+        , correct: "c"},
+        { question: "What refers to a negligible body when compared to the distances involved regarding its motion? "
+        , options: [
+            "a. Particle", 
+            "b. Atomic substance", 
+            "c. Element", 
+            "d. Quarks"]
+        , correct: "a"},
+        { question: "In fluid mechanics, this shows that the pressure of a fluid decreases as the speed of the fluid increases. In addition, the pressure of a fluid decreases as the elevation increases"
+        , options: [
+            "a. Clairut's equation", 
+            "b. Bernoulli's equation", 
+            "c. Maxwell's equation", 
+            "d. Hydrofluid equation"]
+        , correct: "b"},
+        { question: "The hydrostatic pressure a fluid exerts on an immersed object or on container walls is a function only of fluid depth. This is known as the ________"
+        , options: [
+            "a. Hydrostatic paradox", 
+            "b. Pascal's principle", 
+            "c. Bernoulli's", 
+            "d. Archimedes' principle"]
+        , correct: "b"},
+        { question: "Materials for rain-roof coats and tents owe their water-proof properties to "
+        , options: [
+            "a. Surface tension", 
+            "b. Viscosity", 
+            "c. Specific gravity", 
+            "d. Elasticity"]
+        , correct: "a"},
+        { question: "The negative value of the work done by gravity on the body is the ____ of the body"
+        , options: [
+            "a. Negative gravitational energy", 
+            "b. Gravitational potential energy", 
+            "c. Net gravitational energy", 
+            "d. Gravitational kinetic energy"]
+        , correct: "b"},
+        { question: "It is easier to roll a stone up a sloping road than to lift it vertical upwards because"
+        , options: [
+            "a. Work done in rolling is more than in lifting", 
+            "b. Work done in lifting the stone is equal to rolling it", 
+            "c. Work done in both is same but the rate of doing work is less in rolling ", 
+            "d. Work done in rolling a stone is less than in lifting it"]
+        , correct: "d"},
+        { question: "If the distance between the earth and moon were halved, the force of the attraction between them would be:"
+        , options: [
+            "a. One-fourth as great", 
+            "b. One-half as great", 
+            "c. Twice as great", 
+            "d. Four times as great"]
+        , correct: "d"},
+        { question: "The absorption of ink by blotting paper involves"
+        , options: [
+            "a. Viscosity of ink", 
+            "b. Capillary action phenomenon", 
+            "c. Diffusion of ink through blotting", 
+            "d. Siphon action"]
+        , correct: "b"},
+        { question: "The work done by all forces except the gravitational force is equal to the _____ of the system"
+        , options: [
+            "a. Total mechanical energy", 
+            "b. Total potential energy", 
+            "c. Total kinetic energy", 
+            "d. Total momentum"]
+        , correct: "c"},
+        { question: "You swing a stone tied into a string in a horizontal circular motions. You increase the length of the string to two times its original length. Assuming the same speed, what will happen to the force of the string?"
+        , options: [
+            "a. The force will increase four times", 
+            "b. The force will increase two times", 
+            "c. The force will reduce by one-fourth", 
+            "d. The force will be reduced by one-half"]
+        , correct: "d"},
+        { question: "Two waves of equal wavelength will interfere destructively most effective under one of the following conditions. Will the interference be most effective when the waves are:"
+        , options: [
+            "a. In phase and have equal amplitudes", 
+            "b. In phase and have unequal amplitudes", 
+            "c. 180 degrees out of phase and have equal ampliltudes", 
+            "d. 180 degrees out of phase and have unequal amplitudes"]
+        , correct: "c"},
+        { question: "As the temperature of the air increases from 0 degrees C to 20 degrees C, the wavelength of a sound made by a tuning fork of frequency does which of the following?"
+        , options: [
+            "a. Increase", 
+            "b. Decrease", 
+            "c. Remains the same", 
+            "d. Increase up to a maximum then remain constant"]
+        , correct: "a"},
+        { question: "Sound interference is needed to produce what phenomenon?"
+        , options: [
+            "a. Echo", 
+            "b. Resonance", 
+            "c. Beat", 
+            "d. Reverbration"]
+        , correct: "c"},
+        { question: "The kinetic energy of a stone falling near the earth's surface through a vacuum increases with the:"
+        , options: [
+            "a. Square root of its velocity", 
+            "b. Cube root of its velocity", 
+            "c. Square of its velocity", 
+            "d. Cube of its velocity"]
+        , correct: "c"},
+        { question: "Nuclear sizes are expressed in a unit named"
+        , options: [
+            "a. Fermi", 
+            "b. Newton", 
+            "c. Angstrom", 
+            "d. Tesla"]
+        , correct: "a"},
+        { question: "What is the derivative SI unit of absorbed does, defined as the absorbed dose in which the energy per unit mass imparted to the matter by ionizing radiation?"
+        , options: [
+            "a. Rem", 
+            "b. Rad", 
+            "c. Gray", 
+            "d. Curie"]
+        , correct: "c"},
+        { question: "Of the four locations mentioned below the highest inside temperature will be attained in the pressure cooker operated with the pressure valve open "
+        , options: [
+            "a. At sea levle", 
+            "b. At the top of Mt. Everest", 
+            "c. At a place in a valle below sea level", 
+            "d. In an aeroplane flying at a height of 10,000 m with inside pressure maintained at the sea level"]
+        , correct: "c"},
+        { question: "When bullet is fired from a rifle, the force that accelerates the bullet equal in magnitude to the force that makes the rifle recoil. But, compared with the rifle, the bullet has a greater"
+        , options: [
+            "a. Inertia", 
+            "b. Potential energy", 
+            "c. Kinetic energy", 
+            "d. Momentum"]
+        , correct: "c"},
+        { question: "In electrodynamics, what term refers to the average speed of the charge carriers? "
+        , options: [
+            "a. Drag velocity", 
+            "b. Molecular-kinetic speed", 
+            "c. Drift speed", 
+            "d. Charge velocity"]
+        , correct: "c"},
+        { question: "The four underlying equations in electromagnetic theory are called"
+        , options: [
+            "a. Einstein's equation", 
+            "b. Maxwell's equations", 
+            "c. Newton's equations", 
+            "d. Faraday's laws"]
+        , correct: "b"},
+        { question: "It is the enthalpy change associated with the condensation of gaseous positive and negative ion into a crystal"
+        , options: [
+            "a. Racult's law", 
+            "b. Lattice energy", 
+            "c. Enthalpy of solution", 
+            "d. Partition coefficient"]
+        , correct: "b"},
+        { question: "When the image formed by a convex mirror is compared to its object, the image is usually:"
+        , options: [
+            "a. Erect and smaller", 
+            "b. Inverted and imaginary", 
+            "c. Real and inverted", 
+            "d. Real and erect"]
+        , correct: "a"},
+        { question: "n an electromagnetic wave, what is the relative orientation of the magnetic and electric fields?"
+        , options: [
+            "a. 180 degrees", 
+            "b. 90 degrees", 
+            "c. 45 degrees", 
+            "d. 22.5 degrees"]
+        , correct: "b"},
+        { question: "Unit of pressue in vacuum technology is"
+        , options: [
+            "a. mmHg", 
+            "b. millibar", 
+            "c. torr", 
+            "d. atm"]
+        , correct: "c"},
+        { question: "Which of the following explains the theory of combustion as a result of loss of a substance?"
+        , options: [
+            "a. BUrning", 
+            "b. Fission", 
+            "c. Phlogiston", 
+            "d. Combustion"]
+        , correct: "c"},
+        { question: "What refers to the minimum temperature at which combustion can be sustained?"
+        , options: [
+            "a. Burn temperature", 
+            "b. Kindle temperature", 
+            "c. Spark temperature", 
+            "d. Ignition temperature"]
+        , correct: "d"},
+        { question: "In electromagnetics and wave theory, what refers to waves, commonly generated by electronic devices, whose wavelengths ranges from approximately 0.3m to 10-4m. Due to their short wavelengths these are often used in radar systems and for studying the atomic and molecular properties of matter."
+        , options: [
+            "a. Radio waves", 
+            "b. Microwaves", 
+            "c. AM waves", 
+            "d. Radar waves"]
+        , correct: "b"},
+        { question: "Magnetism at teh center of a bar magnet is"
+        , options: [
+            "a. Minimum", 
+            "b. Zero", 
+            "c. Maximum", 
+            "d. Minimum or maximum"]
+        , correct: "b"},
+        { question: "It is the scattering of light by colloidal particles"
+        , options: [
+            "a. Mott scattering", 
+            "b. Tyndall Effect", 
+            "c. Rayleigh Scattering", 
+            "d. Wolf effect"]
+        , correct: "b"},
+        { question: "When light is reflected from a surface, the angle of incidence is:"
+        , options: [
+            "a. 30 degrees", 
+            "b. equal to the angle of reflection", 
+            "c. 90 degrees", 
+            "d. 180 degrees"]
+        , correct: "b"},
+        { question: "n optical system, what refers to its ability to produce separate images of nearby objects?"
+        , options: [
+            "a. Coherent power", 
+            "b. Brewster's power", 
+            "c. Polarization power", 
+            "d. Resolving power"]
+        , correct: "d"},
+        { question: "The gravitational potential energy between two bodies is inversely proportional to:"
+        , options: [
+            "a. The cube of the distance", 
+            "b. The first power of the distance", 
+            "c. The square of the distance", 
+            "d. It has no relation to distance"]
+        , correct: "b"},
+        { question: "The velocity of projection of a body which takes it beyond the earth’s gravitational attraction is called ____ of the body"
+        , options: [
+            "a. Terminal velocity", 
+            "b. Drag velocity", 
+            "c. Escape velocity", 
+            "d. Geostationary velocity"]
+        , correct: "c"},
+        { question: "Mirage is due to"
+        , options: [
+            "a. Unequal heating of different parts of the atmosphere", 
+            "b. Magnetic disturbances in the atmosphere", 
+            "c. Depletion of ozone later in the atmosphere", 
+            "d. Equal heating of different parts of the atmosphere"]
+        , correct: "a"},
+        { question: "Which of the following is not closely associated with a non-magnetic phase diagram?"
+        , options: [
+            "a. Euctic temperature", 
+            "b. Curie point", 
+            "c. Solidius", 
+            "d. Liquidius curves"]
+        , correct: "b"},
+        { question: "A real image is always appears:"
+        , options: [
+            "a. Larger than object", 
+            "b. Inverted", 
+            "c. Erect", 
+            "d. Same size as object"]
+        , correct: "b"},
+        { question: "Let a thin capillary tube be replaced with another tube of insufficient length then, we find water"
+        , options: [
+            "a. Will overflow", 
+            "b. Will not rise", 
+            "c. Depressed", 
+            "d. Change its meniscus"]
+        , correct: "b"},
+        { question: "The inverse of wavelength is referred to as:"
+        , options: [
+            "a. Wave number", 
+            "b. Frequency", 
+            "c. Velocity", 
+            "d. Momentum"]
+        , correct: "a"},
+        { question: "Heat is transferred from the sun to the earth primarily by:"
+        , options: [
+            "a. Conduction", 
+            "b. Convention", 
+            "c. Radiation", 
+            "d. Condensation"]
+        , correct: "c"},
+        { question: "It takes much longer to cook food in the hills than in the plains, because"
+        , options: [
+            "a. In the hills the atmospheric pressure is lower than that in  the plains therefore water boils at a temperature lower than 100°C causing an increase in cooking time", 
+            "b. Due to low atmospheric pressure on the hills, the water boils at a temperature higher than 100°C and therefore water takes longer to boil", 
+            "c. In the hills the atmosphere density is low and therefore a lot of heat is lost to the atmosphere", 
+            "d. n the hills the humidity is high and therefore a lot of heat is absorbed by the atmosphere leaving very little heat for cooking"]
+        , correct: "a"},
+        { question: "Which of the following is not the fundamental force of nature?"
+        , options: [
+            "a. Weak nuclear force", 
+            "b. Strong nuclear interaction", 
+            "c. Cohesive force", 
+            "d. Electromagnetic force"]
+        , correct: "c"},
+        { question: "The recessionvelocity of a distance galaxy is in direct prpotion ot the distance from the observer. This is called:"
+        , options: [
+            "a. Bode's law", 
+            "b. Doppler's law", 
+            "c. Red shift", 
+            "d. Hubble's law"]
+        , correct: "d"},
+        { question: "Out of the following pairs, choose the pair in which the physical quantities do not have identical dimension?"
+        , options: [
+            "a. Pressure and young's modulus", 
+            "b. Planck's constant and Angular momentum", 
+            "c. Impulse and moment force", 
+            "d. Force and rate of change of linear momentum"]
+        , correct: "c"},
+        { question: "Mach number used in connection with the speed of"
+        , options: [
+            "a. Sound", 
+            "b. Aircraft", 
+            "c. Spacecraft", 
+            "d. Ships"]
+        , correct: "b"},
+        { question: ""
+        , options: [
+            "a. ", 
+            "b. ", 
+            "c. ", 
+            "d. "]
+        , correct: ""},
+
+
         // Add more GEAS questions here
     ],
     EST: [
