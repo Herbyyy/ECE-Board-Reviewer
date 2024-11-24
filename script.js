@@ -60,12 +60,339 @@ const questions = {
         { question: ""
         , options: ["a. ", "b. ", "c. ", "d. "]
         , correct: ""},
-        // Add more Math questions here
+        // Add 
     ],
 
     Mathematics: [
-        { question: "What is Ohm's Law?", options: ["a. V=IR", "b. E=mc^2", "c. F=ma", "d. P=IV"]
-            , correct: "a" },
+        { 
+            question: "Which of the following defines a function?",
+            options: [
+                "a. A relation where every input has at least one output", 
+                "b. A relation where every input has exactly one output", 
+                "c. A relation where every output has one input", 
+                "d. A relation where input values repeat"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Given f(x) = x² - 2x + 3 and g(x) = 2x + 1, find (f ∘ g)(x).",
+            options: [
+                "a. 4x² + 4x + 4", 
+                "b. 4x² + 2", 
+                "c. 2x² + 4x + 3", 
+                "d. x² + x + 3"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Find the domain of h(x) = ln(x² - 4).",
+            options: [
+                "a. (-∞, -2) ∪ (2, ∞)", 
+                "b. (-∞, -4) ∪ (4, ∞)", 
+                "c. (-4, 4)", 
+                "d. (-∞, ∞)"
+            ],
+            correct: ""
+        },
+        { 
+            question: "If f(x) = √(x + 2), find f⁻¹(x).",
+            options: [
+                "a. x² - 2", 
+                "b. √x - 2", 
+                "c. x² + 2", 
+                "d. √(x + 2)"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Evaluate the limit: lim(x→3) [(x² - 9)/(x - 3)].",
+            options: [
+                "a. 0", 
+                "b. 3", 
+                "c. 6", 
+                "d. 9"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Find the limit as x approaches ∞, (3x + 7)/(5x - 2).",
+            options: [
+                "a. 3/5", 
+                "b. 1", 
+                "c. 7/3", 
+                "d. 0"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Find the limit of (1 + x)^(1/x) as x approaches 0.",
+            options: [
+                "a. 1", 
+                "b. 0", 
+                "c. ∞", 
+                "d. e"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Find the limit of √(3 + arctan(1/x)) as x approaches 0.",
+            options: [
+                "a. 1.195", 
+                "b. 2.137", 
+                "c. ∞", 
+                "d. DNE"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Find the value of the limit: lim x→0 of ln(1 + x) / x.",
+            options: [
+                "a. 0", 
+                "b. 1", 
+                "c. ∞", 
+                "d. DNE"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Evaluate the limit: lim x→0 of (1 - cos x) / x².",
+            options: [
+                "a. 0", 
+                "b. 1/2", 
+                "c. 1", 
+                "d. Does not exist"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Find the average rate of change f(x) = x³ + 1 in the interval of [2,3].",
+            options: [
+                "a. 24", 
+                "b. 32", 
+                "c. 19", 
+                "d. 82"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Differentiate y = ln(x² + 1):",
+            options: [
+                "a. 1/(x² + 1)", 
+                "b. 2x/(x² + 1)", 
+                "c. 2x ln(x² + 1)", 
+                "d. 2x/ln(x² + 1)"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Find the derivative of y = x^x:",
+            options: [
+                "a. x^x ln(x)", 
+                "b. x^x (1 + ln(x))", 
+                "c. ln(x^x)", 
+                "d. x^(x-1)"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Compute d/dx [cos(x)/(1 - sin(x))]:",
+            options: [
+                "a. -sin(x)/(1 - cos(x))", 
+                "b. -1/(1 - sin(x))²", 
+                "c. -1/(1 + cos(x))²", 
+                "d. -cos(x)/(1 - sin(x))²"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Solve for ∂f/∂x if f(x, y) = x²y + sin(y):",
+            options: [
+                "a. 2xy + cos(y)", 
+                "b. 2xy", 
+                "c. 2y", 
+                "d. y² + cos(y)"
+            ],
+            correct: ""
+        },
+        { 
+            question: "Using implicit differentiation, find dy/dx for x² + xy - y² = 4:",
+            options: [
+                "a. (2x + y)/(2y - x)", 
+                "b. (2x - y)/(2y + x)", 
+                "c. (x + 2y)/(x - 2y)", 
+                "d. (x + y)/(2x - y)"
+            ],
+            correct: ""
+        },
+        { 
+            question: "If y = 16√x, find y’’ at x = 4.",
+            options: [
+                "a. -16", 
+                "b. -4", 
+                "c. -2", 
+                "d. -1/2"
+            ],
+            correct: ""
+        },
+        { 
+            question: "If f(x) = sin x + cos x, find the 2024th derivative of f(x).",
+            options: [
+                "a. sin x + cos x", 
+                "b. sin x – cos x", 
+                "c. cos x – sin x", 
+                "d. – cos x – sin x"
+            ],
+            correct: ""
+        }, {
+            question: "If f(x) = e^x sin(x), solve for log₂(f₂₀₂₄(x)/f(x)) where fₙ is nth derivative of f(x).",
+            options: [
+                "a. 1004",
+                "b. 2024",
+                "c. 1012",
+                "d. 2008"
+            ],
+            correct: ""
+        },
+        {
+            question: "If x = 2 sin t and y = cos 2t, find dy/dx.",
+            options: [
+                "a. 2 sin t",
+                "b. -2 cos t",
+                "c. -2 sin t",
+                "d. 2 cos t"
+            ],
+            correct: ""
+        },
+        {
+            question: "If x = 2 sin t and y = cos 2t, find d²y/dx².",
+            options: [
+                "a. 2",
+                "b. -1",
+                "c. -2",
+                "d. 1"
+            ],
+            correct: ""
+        },
+        {
+            question: "Two numbers have a sum of 10. Find the larger number if their product is maximized.",
+            options: [
+                "a. 4",
+                "b. 5",
+                "c. 6",
+                "d. 3"
+            ],
+            correct: ""
+        },
+        {
+            question: "Find the rectangle of largest area that can be inscribed in an equilateral triangle of side 20 cm.",
+            options: [
+                "a. 10 × 5√3 cm",
+                "b. 5 × 10√3 cm",
+                "c. 5 × 5√3 cm",
+                "d. 2 × 25√3 cm"
+            ],
+            correct: ""
+        },
+        {
+            question: "A church window is in the shape of a rectangle surmounted by a semicircle. If the perimeter of the window is 20 ft, what is its maximum area (in sq.ft)?",
+            options: [
+                "a. 24",
+                "b. 28",
+                "c. 32",
+                "d. 36"
+            ],
+            correct: ""
+        },
+        {
+            question: "A river is 1 mile wide. Frank wants to get from point A to point B on the opposite side of the river, 3 miles downstream. If Frank can run 5 miles per hour and can swim 3 miles per hour, what is the least amount of time in which he can get from A to B?",
+            options: [
+                "a. 11/15 hr",
+                "b. 13/15 hr",
+                "c. 14/15 hr",
+                "d. 17/15 hr"
+            ],
+            correct: ""
+        },
+        {
+            question: "Determine the dimensions of a rectangle with a perimeter of 20 cm that has maximum area.",
+            options: [
+                "a. 5 × 5 cm",
+                "b. 4 × 6 cm",
+                "c. 8 × 2 cm",
+                "d. 10 × 0 cm"
+            ],
+            correct: ""
+        },
+        {
+            question: "Find the maximum area of the rectangle whose base is on the x-axis and upper two vertices lie on the parabola y = 12 − x².",
+            options: [
+                "a. 28 sq. units",
+                "b. 30 sq. units",
+                "c. 32 sq. units",
+                "d. 34 sq. units"
+            ],
+            correct: ""
+        },
+        {
+            question: "A trough filled with water is 2 m long and has a cross section in the shape of an isosceles trapezoid 30 cm wide at the bottom, 60 cm wide at the top, and a height of 50 cm. If the trough leaks water at the rate of 2000 cm³/min, how fast is the water level falling when the water is 20 cm deep?",
+            options: [
+                "a. 5/21 cm/min",
+                "b. 6/23 cm/min",
+                "c. 7/24 cm/min",
+                "d. 8/25 cm/min"
+            ],
+            correct: ""
+        },
+        {
+            question: "A 10 m ladder slides away from a wall at 2 m/s. How fast is the top of the ladder sliding down when the bottom is 6 m away?",
+            options: [
+                "a. 1.2 m/s",
+                "b. 1.5 m/s",
+                "c. 1.8 m/s",
+                "d. 2.0 m/s"
+            ],
+            correct: ""
+        },
+        {
+            question: "Two legs of a right triangle are each 70 cm. If one leg grows at the rate of 5 cm/min and the other shrinks at the rate of 5 cm/min, how fast is the hypotenuse of the triangle changing 2 minutes later?",
+            options: [
+                "a. 4 cm/min",
+                "b. 3 cm/min",
+                "c. 2 cm/min",
+                "d. 1 cm/min"
+            ],
+            correct: ""
+        },
+        {
+            question: "Two sides of a triangle are 5 and 10 inches, respectively. The angle between them is increasing at the rate of 5° per minute. How fast is the third side of the triangle growing when the angle is 60°?",
+            options: [
+                "a. 5π/36 in/min",
+                "b. 7π/36 in/min",
+                "c. 11π/36 in/min",
+                "d. 13π/36 in/min"
+            ],
+            correct: ""
+        },
+        {
+            question: "A kite is flying 100 ft above the ground, moving in a strictly horizontal direction at a rate of 10 ft/sec. How fast is the angle between the string and the horizontal changing when there is 300 ft of string out?",
+            options: [
+                "a. 1/20 rad/sec",
+                "b. 1/50 rad/sec",
+                "c. 1/70 rad/sec",
+                "d. 1/90 rad/sec"
+            ],
+            correct: ""
+        },
+        {
+            question: "A runner and his trainer are standing together on a circular track of radius 100 meters. When the trainer gives a signal, the runner starts to run around the track at a speed of 10 m/s. How fast is the distance between the runner and the trainer increasing when the runner has run 1/4 of the way around the track?",
+            options: [
+                "a. 5√2 m/s",
+                "b. 10√3 m/s",
+                "c. 5√3 m/s",
+                "d. 10√2 m/s"
+            ],
+            correct: ""
+        },
     ],
 
     Elecs: [
@@ -141,8 +468,371 @@ const questions = {
         { question: "Current is considered as the movement of:"
         , options: ["a. Electrons", "b. Protons", "c. Charge", "d. Nuclei"]
         , correct: "a"},
+        { question: "Rectangular wave that has a duty cycle of 50% could be called a "
+        , options: [
+            "a. C wave", 
+            "b. Sawtooth wave", 
+            "c. Square wave", 
+            "d. Triangular wave"]
+        , correct: "c"},
+        { question: "_____ is the physical motion resulting from the forces of magnetic fields."
+        , options: [
+            "a. Torque actions", 
+            "b. Repulsion", 
+            "c. Motor action", 
+            "d. Rotation"]
+        , correct: "c"},
+        { question: "What does magnetic shield do to lines of force?"
+        , options: [
+            "a. Control", 
+            "b. Repel", 
+            "c. Capture", 
+            "d. Correct"]
+        , correct: "c"},
+        { question: "The magnitude of the induced emf in a coil is directly proportional to the rate of change of flux linkages. This is known as "
+        , options: [
+            "a. Joule's Law", 
+            "b. Faraday's second law of electromagnetic induction", 
+            "c. Faraday's first law of electromagnetic induction", 
+            "d. Coulomb's law"]
+        , correct: "b"},
+        { question: "A ferromagnetic material becomes magnetized by induction when it is"
+        , options: [
+            "a. Treated with some chemicals", 
+            "b. Heated", 
+            "c. Near to one end of a magnet", 
+            "d. None of these"]
+        , correct: "c"},
+        { question: "The Hall effect"
+        , options: [
+            "a. Is a phenomenon with no practical applications ", 
+            "b. Is used in various sensor applications", 
+            "c. Can develop potentials of thousands of volts", 
+            "d. Is the basis for solar cell operation"]
+        , correct: "b"},
+        { question: "Which of the following refers to the point where the intensity of magnetic lines of force is maximum?"
+        , options: [
+            "a. Magnetic pole", 
+            "b. Weak pole", 
+            "c. North pole", 
+            "d. Great circle"]
+        , correct: "a"},
+        { question: "If doubling the voltage across a resistor doubles the current through the resistor then "
+        , options: [
+            "a. The resistor value decreased", 
+            "b. The resistor value did not change", 
+            "c. The resistor value increased", 
+            "d. It is impossible to determine the change in the resistor value"]
+        , correct: "b"},
+        { question: "With 20 V applied, an 8-ohm resistor is in series with a lamp. When the lamp is removed, what voltage will be read across the lamp socket?"
+        , options: [
+            "a. 0 V", 
+            "b. 8 V", 
+            "c. 12 V", 
+            "d. 20 V"]
+        , correct: "d"},
+        { question: "A lead-acidity battery is an example of a"
+        , options: [
+            "a. Solar cell", 
+            "b. Fuel cell", 
+            "c. Primary battery", 
+            "d. Secondary battery"]
+        , correct: "d"},
+        { question: "The effective value of a sine wave is equal to"
+        , options: [
+            "a. 0.707 of peak voltage", 
+            "b. 0.636 of peak voltage", 
+            "c. Sin 45 degrees of peak voltage", 
+            "d. Both 0.707 of peak voltage and Sin 45 degrees of peak voltage"]
+        , correct: "d"},
+        { question: "Which of the following refers to a characteristic of magnetic line of force?"
+        , options: [
+            "a. Travels from south to north through the surrounding medium of a bar magnet", 
+            "b. Travels back and forth between the north and south pole of a bar magnet", 
+            "c. Travels from north to south through the surrounding medium of a bar magnet", 
+            "d. Stay stationery between north and the south of a bar magnet"]
+        , correct: "c"},
+        { question: "Which would shield a permanent magnetic field best?"
+        , options: [
+            "a. Copper", 
+            "b. Lead", 
+            "c. Glass", 
+            "d. Iron"]
+        , correct: "d"},
+        { question: "What is the susceptibility of ferromagnetic materials?"
+        , options: [
+            "a. Small and positive", 
+            "b. Small and negative", 
+            "c. Large and positive", 
+            "d. Large and negative"]
+        , correct: "c"},
+        { question: "Magnetic lines of force is also called"
+        , options: [
+            "a. Flux", 
+            "b. Magnetomotive force", 
+            "c. Magnetic current", 
+            "d. Both a and c"]
+        , correct: "d"},
+        { question: "“Series” and “Parallel” as applied to dc motors refers to "
+        , options: [
+            "a. The connection of the motor and controller", 
+            "b. The connection of the field coil and armature windings ", 
+            "c. The connection of the brush and commutator", 
+            "d. The connection of the motor batteries"]
+        , correct: "b"},
+        { question: "An insulator is a substance that"
+        , options: [
+            "a. Offers a resistance to current flow", 
+            "b. Offers a low resistnance to current flow", 
+            "c. Absorbs electricity", 
+            "d. Forms a condenser"]
+        , correct: "a"},
+        { question: "If the voltage across a fixed value of resistance is increased five times, what does the current do?"
+        , options: [
+            "a. It increases by a factor of finve", 
+            "b. It decreases by a factor of finve", 
+            "c. It stays the same", 
+            "d. Not enough information"]
+        , correct: "a"},
+        { question: "In a series circuit, the voltage measured across a short will be:"
+        , options: [
+            "a. Source voltage", 
+            "b. Infinite voltage", 
+            "c. Zero volts", 
+            "d. The normal voltage drop"]
+        , correct: "c"},
+        { question: "A basic electric circuit is made up of what components?"
+        , options: [
+            "a. A load, resistor, and a conductive path for current", 
+            "b. A voltage source, a load, and a conductive path for current ", 
+            "c. A voltage source, a conductive path for current, and a battery ", 
+            "d. A conductive path for current, a battery, and a copper wire"]
+        , correct: "b"},
+        { question: "In a parallel RLC circuit, which value may always be used as a vector reference?"
+        , options: [
+            "a. Current", 
+            "b. Reactance", 
+            "c. Resistance", 
+            "d. Voltage"]
+        , correct: "d"},
+        { question: "The motion of charged particles especially colloidal particles through a relative stationary liquid under the influence of an applied electric fields provided"
+        , options: [
+            "a. Maintain position", 
+            "b. Repel each other", 
+            "c. No physical effect", 
+            "d. Attract each other"]
+        , correct: "d"},
+        { question: "The motion of charged particles especially colloidal particles through a relative stationary liquid under the influence of an applied electric fields provided "
+        , options: [
+            "a. Electrolysis", 
+            "b. Hysteresis", 
+            "c. Electrophoresis", 
+            "d. Electroanalysis"]
+        , correct: "c"},
+        { question: "The magnetic field of magnetized iron bar when strongly heated"
+        , options: [
+            "a. Becomes weaker", 
+            "b. Becomes stronger", 
+            "c. Reverses in direction", 
+            "d. Is unchanged"]
+        , correct: "a"},
+        { question: "Unit of reluctance in SI is"
+        , options: [
+            "a. Amp-turns/weber", 
+            "b. Amp-turns", 
+            "c. Amp-turns/meter", 
+            "d. None of these"]
+        , correct: "a"},
+        { question: "The component that produces power in an electromagnetic generator is called the "
+        , options: [
+            "a. Armature", 
+            "b. Field winding", 
+            "c. Commutator", 
+            "d. Brush"]
+        , correct: "a"},
+        { question: "Which of the following units can represent magnetic flux density?"
+        , options: [
+            "a. The volt-turn", 
+            "b. The ampere-turn", 
+            "c. The gauss", 
+            "d. The gauss-turn"]
+        , correct: "c"},
+        { 
+            question: "If the resistance in a circuit with constant voltage increases, the current will",
+            options: [
+                "a. Increases", 
+                "b. Decreases", 
+                "c. Stay the same", 
+                "d. Not enough information"
+            ],
+            correct: "b"
+        },
+        { 
+            question: "A parallel circuit differs from a series circuit in that a parallel circuit has",
+            options: [
+                "a. No path for current flow", 
+                "b. Fewer path for current flow", 
+                "c. One path for current flow", 
+                "d. More than one for current flow"
+            ],
+            correct: "d"
+        },
+        { 
+            question: "What is a characteristic of a secondary cell?",
+            options: [
+                "a. Rechargeability", 
+                "b. Not rechargeable", 
+                "c. A dry cell", 
+                "d. Non-liquid"
+            ],
+            correct: "a"
+        },
+        { 
+            question: "What effect will a parallel tank have upon final filter current?",
+            options: [
+                "a. Very little", 
+                "b. The bandpass frequencies will change", 
+                "c. The frequency cutoff will change", 
+                "d. The impedance will block output"
+            ],
+            correct: "a"
+        },
+        { 
+            question: "Where do you classify cobalt as material?",
+            options: [
+                "a. Non-magnetic", 
+                "b. Ferromagnetic", 
+                "c. Paramagnetic", 
+                "d. Diamagnetic"
+            ],
+            correct: "b"
+        },
+        { 
+            question: "Definite relationship between the direction of the magnetic field, the direction of current in the conductor and the direction which the conductor tends to move in a motor",
+            options: [
+                "a. Left-hand rule", 
+                "b. North-South rule", 
+                "c. House rule", 
+                "d. Right-hand rule"
+            ],
+            correct: "a"
+        },
+        { 
+            question: "What do you call the mechanical separation of charge in a dielectric?",
+            options: [
+                "a. Seebeck effect", 
+                "b. Triboelectric effect", 
+                "c. Boltzmann temperature", 
+                "d. Absolute zero"
+            ],
+            correct: "b"
+        },
+        { 
+            question: "Magnetic materials with greater hysteresis loop are best suited for",
+            options: [
+                "a. Electromagnet", 
+                "b. Permanent magnet", 
+                "c. Artificial magnet", 
+                "d. Natural magnet"
+            ],
+            correct: "b"
+        },
+        { 
+            question: "A Hall effect sensor",
+            options: [
+                "a. Exists only in theory", 
+                "b. Is noncontacting magnetic sensor", 
+                "c. Can operate only a few times before failure", 
+                "d. Produces very large voltages"
+            ],
+            correct: "b"
+        },
+        { 
+            question: "When you demagnetize properly by applying an AC field and then gradually reduced it to zero, it is called",
+            options: [
+                "a. Damping", 
+                "b. Decaying", 
+                "c. Degaussing", 
+                "d. Gaussing"
+            ],
+            correct: "c"
+        },
+        { 
+            question: "A damaged resistor",
+            options: [
+                "a. May appear burned", 
+                "b. May have an increased resistance value", 
+                "c. May be checked with an ohmmeter", 
+                "d. All of the above"
+            ],
+            correct: "d"
+        },
+        { 
+            question: "What are the basic building blocks that all matter is composed of?",
+            options: [
+                "a. Electrons, neutrons, and protons", 
+                "b. Two protons for each neutron", 
+                "c. Two protons for each electron", 
+                "d. Electrons, neutrons, and charged ions"
+            ],
+            correct: "a"
+        },
+        { 
+            question: "When a full band of frequencies is allowed to pass through a filter circuit to the output, the resonant circuit is called a:",
+            options: [
+                "a. Low-pass filter", 
+                "b. High-pass filter", 
+                "c. Band-stop filter", 
+                "d. Band-pass filter"
+            ],
+            correct: "d"
+        },
+        { 
+            question: "It is difficult to magnetize steel because of its",
+            options: [
+                "a. Low permeability", 
+                "b. High retentivity", 
+                "c. High permeability", 
+                "d. High density"
+            ],
+            correct: "a"
+        },
+        { 
+            question: "Determine which statement is true?",
+            options: [
+                "a. The current carriers in conductors are protons", 
+                "b. The current carriers in conductors are valence electrons", 
+                "c. Valence and inner electrons are the carriers in conductors", 
+                "d. Valence electrons are not the ones that become free electrons"
+            ],
+            correct: "b"
+        },
+        { 
+            question: "The magnetic flux through a wire loop in a magnetic field does not depend on",
+            options: [
+                "a. The area of the loop", 
+                "b. The magnitude of the field", 
+                "c. The shape of the loop", 
+                "d. The angle between the plane of the loop and the direction"
+            ],
+            correct: "c"
+        },
+        { 
+            question: "A control device that uses electromagnetism to convert electrical energy into mechanical energy",
+            options: [
+                "a. Rotary switch", 
+                "b. Solenoid", 
+                "c. Starting motor", 
+                "d. Exciter motor"
+            ],
+            correct: "b"
+        },
         { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
+        , options: [
+            "a. ", 
+            "b. ", 
+            "c. ", 
+            "d. "]
         , correct: ""},
 
         // Add more Elecs questions here
