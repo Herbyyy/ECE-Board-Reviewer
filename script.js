@@ -1,5 +1,5 @@
 const questions = {
-    Integration: [
+    Integration1: [
         { question: "A unit of signaling speed equal to the number of signal events per second."
         , options: ["a. bit rate", "b. pulse rate", "c. baud rate", "d. Nyquist rate"]
         , correct: "c"},
@@ -61,6 +61,180 @@ const questions = {
         , options: ["a. ", "b. ", "c. ", "d. "]
         , correct: ""},
         // Add 
+    ],
+
+    Integration2: [
+        {
+            question: "The most common circuit used for demodulating binary FSK is",
+            options: [
+                "a. DPSK",
+                "b. S/H circuit",
+                "c. PLL",
+                "d. VCO"
+            ],
+            correct: "c"
+        },
+        {
+            question: "What is the most commonly used type of BPSK transmitter?",
+            options: [
+                "a. balanced modulator",
+                "b. balanced ring modulator",
+                "c. level converter",
+                "d. none of the above"
+            ],
+            correct: "b"
+        },
+        {
+            question: "What bit is used to determine the magnitude of the 8-PSK outphase?",
+            options: [
+                "a. Q",
+                "b. I",
+                "c. C",
+                "d. P"
+            ],
+            correct: "c"
+        },
+        {
+            question: "In a _____, only the relative positions of the peaks of the phasors for PSK system are shown.",
+            options: [
+                "a. Truth table",
+                "b. Phasor diagram",
+                "c. Constellation diagram",
+                "d. Argand diagram"
+            ],
+            correct: "c"
+        },
+        {
+            question: "The only difference between the 8-QAM transmitter and the 8-PSK transmitter is the omission of the _____ between the C-channel and the Q-product modulator.",
+            options: [
+                "a. I channel",
+                "b. Inverter",
+                "c. Channel splitter",
+                "d. level converter"
+            ],
+            correct: "b"
+        },
+        {
+            question: "What is often used to compare the performance of one digital modulation technique to another?",
+            options: [
+                "a. BW efficiency",
+                "b. information density",
+                "c. spectral efficiency",
+                "d. all of the above"
+            ],
+            correct: "d"
+        },
+        {
+            question: "What does Trellis Code Modulation used to reduce the probability of error thus improving the bit error performance?",
+            options: [
+                "a. encoding only",
+                "b. compression and encoding",
+                "c. encoding and modulation",
+                "d. modulation only"
+            ],
+            correct: "c"
+        },
+        {
+            question: "NRZ-L in under what line encoding technique?",
+            options: [
+                "a. Unipolar",
+                "b. Polar",
+                "c. Bipolar",
+                "d. Biphase"
+            ],
+            correct: "b"
+        },
+        {
+            question: "A variation of bipolar AMI in which binary 0 alternates between positive and negative voltages.",
+            options: [
+                "a. B8ZS",
+                "b. HDB3",
+                "c. pseudoternary",
+                "d. differential AMI"
+            ],
+            correct: "c"
+        },
+        {
+            question: "The following are three types of synchronization signals except:",
+            options: [
+                "a. bit sync",
+                "b. frame sync",
+                "c. byte sync",
+                "d. carrier sync"
+            ],
+            correct: "c"
+        },
+        {
+            question: "Is the set of techniques that allows the simultaneous transmission of multiple signals across a single data link.",
+            options: [
+                "a. combiner",
+                "b. multiplexing",
+                "c. algorithm",
+                "d. interleaving"
+            ],
+            correct: "b"
+        },
+        {
+            question: "Five channels, each with a 100-kHz bandwidth, are to be multiplexed together.What is the minimum bandwidth of the link if there is a need for a guard band of 10 kHz between channels to prevent interference?",
+            options: [
+                "a. 400 kHz",
+                "b. 500 kHz",
+                "c. 540 kHz",
+                "d. 620 kHz"
+            ],
+            correct: "c"
+        },
+        {
+            question: "The basic voice-band (VB) circuit in FDM hierarchy is called a basic:",
+            options: [
+                "a. 3001 channel",
+                "b. voice channel",
+                "c. message channel",
+                "d. 3002 channel"
+            ],
+            correct: "d"
+        },
+        {
+            question: "This mastergroup type is used for low capacity microwave system and uses lower supergroup carrier frequencies",
+            options: [
+                "a. F600",
+                "b. L600",
+                "c. T600",
+                "d. U600"
+            ],
+            correct: "d"
+        },
+        {
+            question: "Three strategies that can be used to overcome the data rate mismatch in TDM system, except:",
+            options: [
+                "a. multi-level",
+                "b. multi-slot",
+                "c. multi-frame",
+                "d. pulse stuffing"
+            ],
+            correct: "c"
+        },
+        {
+            question: "A hardware device about the size of an external MODEM that converts a digital data frame from the communications technology used on a LAN into a frame appropriate to a WAN and vice versa.",
+            options: [
+                "a. CSU",
+                "b. MSU",
+                "c. TSU",
+                "d. BSU"
+            ],
+            correct: "a"
+        },
+        {
+            question: "DS-0 is implemented by what T-carrier?",
+            options: [
+                "a. T1",
+                "b. T2",
+                "c. T3",
+                "d. none of the above"
+            ],
+            correct: "d"
+        },
+
     ],
 
     Mathematics: [
