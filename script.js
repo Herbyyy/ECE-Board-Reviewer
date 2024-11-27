@@ -57,13 +57,6 @@ const questions = {
         { question: "The simplest and most common form of ASK operates as a switch, using the presence of a carrier wave to indicate a binary one and its absence ot indicate a binary zero, which refers to"
         , options: ["a. OFDM", "b. DPCM", "c. OOK", "d. QAM"]
         , correct: "c"},
-        { question: ""
-        , options: ["a. ", "b. ", "c. ", "d. "]
-        , correct: ""},
-        // Add 
-    ],
-
-    Integration2: [
         {
             question: "The most common circuit used for demodulating binary FSK is",
             options: [
@@ -234,8 +227,12 @@ const questions = {
             ],
             correct: "d"
         },
-
+        { question: ""
+        , options: ["a. ", "b. ", "c. ", "d. "]
+        , correct: ""},
+        // Add 
     ],
+
 
     Mathematics: [
         { 
